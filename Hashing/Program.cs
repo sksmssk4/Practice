@@ -4,26 +4,53 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hashing
+
+namespace HashTable
 {
-    public static class HashMethod
+    public static class HashMethods
     {
-        static string[] Hash = { "ab","ac","ad","ae","af","ag"}; // n개의 array형태 버킷
-        
-        public static string HashTable(this string hash)
+        static int user = 0;
+        static string[] Hash = { "aa", "ab", "ac", "ad" };
+
+        public static string Search(this String hash)
         {
-            string solution = "";
-            solution = Hash[0];
-            return solution;
+            string keyValue = "";
+            keyValue = Hash[0];    
+            return keyValue;
         }
+
+        static bool Targetting(this string hash)
+        {
+            Console.WriteLine($"hash = {hash}");
+            string target = "";
+            Console.Write("target 입력 : ");
+            target = Console.ReadLine();
+            return hash == target; 
+        }
+
+      
         static void Main(string[] args)
         {
-            string s= "";
-            string hashValue = s.HashTable();
-            Console.Write("값 입력 : ");
-            s = Console.ReadLine();
-            Console.WriteLine($"{hashValue}", hashValue);
+            if (user == 0)
+            {
+                Console.WriteLine("=====Search=====");
+                string key = "";
+                Console.Write("key값 입력: ");
+                key = Console.ReadLine();
+                string key_value = key.Search();
+                Console.WriteLine(key_value);
+                user++;
+            }
+            if (user == 1)
+            {
+                Console.WriteLine("=====Delete=====");
+                List<string> delete = new List<string>(Hash);
+                delete.RemoveAll(Targetting);
+                Console.WriteLine("=====Result=====");
+                foreach (var s in delete)
+                    Console.WriteLine($"{s}");
+            }
         }
-    }
 
+    }
 }

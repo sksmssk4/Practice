@@ -1,7 +1,6 @@
 c:\users\이명현\documents\visual studio 2015\Projects\Hashing\Hashing\bin\Debug\Hashing.exe.config
-C:\Users\이명현\Desktop\Practice\Hashing\bin\Debug\Hashing.exe.config
-C:\Users\이명현\Desktop\Practice\Hashing\bin\Debug\Hashing.exe
-C:\Users\이명현\Desktop\Practice\Hashing\bin\Debug\Hashing.pdb
-C:\Users\이명현\Desktop\Practice\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
-C:\Users\이명현\Desktop\Practice\Hashing\obj\Debug\Hashing.exe
-C:\Users\이명현\Desktop\Practice\Hashing\obj\Debug\Hashing.pdb
+C:\Users\이명현\Documents\Visual Studio 2015\Projects\Hashing\Hashing\bin\Debug\Hashing.exe
+C:\Users\이명현\Documents\Visual Studio 2015\Projects\Hashing\Hashing\bin\Debug\Hashing.pdb
+C:\Users\이명현\Documents\Visual Studio 2015\Projects\Hashing\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
+C:\Users\이명현\Documents\Visual Studio 2015\Projects\Hashing\Hashing\obj\Debug\Hashing.exe
+C:\Users\이명현\Documents\Visual Studio 2015\Projects\Hashing\Hashing\obj\Debug\Hashing.pdb
